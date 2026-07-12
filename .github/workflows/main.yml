@@ -20,7 +20,7 @@ jobs:
           password: ${{secrets.PASSWORD}}
 
           script: |
-            cd /home/student/sujal/backend-kiza
+            cd /home/mamta/backend
             git pull origin main
             npm i
             pm2 start index.js --name “kiza-Backend”
