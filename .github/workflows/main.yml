@@ -22,5 +22,5 @@ jobs:
           script: |
             cd /home/mamta/backend-kiza/
             git pull origin main
-            npm i
+            sudo  npm i
             pm2 start index.js --name "kiza-backend"
